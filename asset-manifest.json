@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb2ac00f.chunk.css",
+    "main.js": "/static/js/main.9fe1c070.chunk.js",
+    "main.js.map": "/static/js/main.9fe1c070.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.333a148b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.333a148b.js.map",
+    "static/js/2.59be3c5a.chunk.js": "/static/js/2.59be3c5a.chunk.js",
+    "static/js/2.59be3c5a.chunk.js.map": "/static/js/2.59be3c5a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6a9b8b9c6c75a8dcfad46ed80bf8acda.js": "/precache-manifest.6a9b8b9c6c75a8dcfad46ed80bf8acda.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.eb2ac00f.chunk.css.map": "/static/css/main.eb2ac00f.chunk.css.map",
+    "static/media/logo.svg": "/static/media/logo.16735f07.svg",
+    "static/media/vedoo_logo.svg": "/static/media/vedoo_logo.4119cda0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.333a148b.js",
+    "static/js/2.59be3c5a.chunk.js",
+    "static/css/main.eb2ac00f.chunk.css",
+    "static/js/main.9fe1c070.chunk.js"
+  ]
+}

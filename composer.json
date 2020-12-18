@@ -1,0 +1,5 @@
+{
+    "require": {
+        "prismic/php-sdk": "^5.1"
+    }
+}
