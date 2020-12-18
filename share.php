@@ -8,7 +8,7 @@ use Prismic\Dom\Link;
 use Prismic\Predicates;
 use Prismic\Dom\RichText;
 
-$api = Api::get("https://iconsua.cdn.prismic.io/api/v2");
+$api = Api::get("https://iconsofslovenia.cdn.prismic.io/api/v2");
 $path = explode( "/", $_SERVER['REQUEST_URI']);
 
 $response = null;
