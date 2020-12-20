@@ -2,7 +2,8 @@
 RewriteEngine On
 RewriteBase /
 
-
+RewriteCond %{HTTPS} off
+RewriteRule ^foo/$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP_USER_AGENT} ^facebookexternalhit
 RewriteCond %{REQUEST_URI} !^/share.php
