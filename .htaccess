@@ -2,9 +2,7 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.iconsofslovenia.com/$1 [R=301,L,NE]
-Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
 
 
 RewriteCond %{HTTP_USER_AGENT} ^facebookexternalhit
