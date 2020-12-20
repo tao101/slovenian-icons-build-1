@@ -2,7 +2,7 @@
 RewriteEngine On
 
 RewriteCond %{HTTPS}        =on   [OR]
-RewriteCond %{HTTP_HOST}    !^example\.com$
+RewriteCond %{HTTP_HOST}    !^iconsofslovenia\.com$
 RewriteRule ^(.*)$          "https://iconsofslovenia.com/$1" [R=301,L]
 
 RewriteBase /
