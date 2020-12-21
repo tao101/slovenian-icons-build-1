@@ -45,14 +45,14 @@ if($configResponse) {
             <meta property="og:image:width" content="<?php echo $response->data->seo_image->dimensions->width; ?>" />
             <meta property="og:image:height" content="<?php echo $response->data->seo_image->dimensions->height; ?>" />
         <?php else: ?>
-            <meta property="og:image" content="https://images.prismic.io/iconsofslovenia/8435fd82-c080-4ec4-b97b-d6ca4752e3b2_logo.png" />
+            <meta property="og:image" content="https://images.prismic.io/iconsofslovenia/a5065a28-c2e5-4e9e-a5b7-a9a95df51194_Marshrutkas.png" />
         <?php endif; ?>
     <?php else: ?>
 
         <title><?php echo $siteTitle;?></title>
         <meta property="og:title" content="<?php echo $siteTitle;?>" />
         <meta property="og:description" content="<?php echo $siteDescription;?>" />
-        <meta property="og:image" content="https://images.prismic.io/iconsofslovenia/8435fd82-c080-4ec4-b97b-d6ca4752e3b2_logo.png" />
+        <meta property="og:image" content="https://images.prismic.io/iconsofslovenia/a5065a28-c2e5-4e9e-a5b7-a9a95df51194_Marshrutkas.png" />
 
     <?php endif; ?>
 
