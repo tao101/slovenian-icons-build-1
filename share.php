@@ -45,14 +45,14 @@ if($configResponse) {
             <meta property="og:image:width" content="<?php echo $response->data->seo_image->dimensions->width; ?>" />
             <meta property="og:image:height" content="<?php echo $response->data->seo_image->dimensions->height; ?>" />
         <?php else: ?>
-            <meta property="og:image" content="./assets/logo.png" />
+            <meta property="og:image" content="https://images.prismic.io/iconsofslovenia/5d628309-0c09-4494-bdbb-c31da195463c_logo.png" />
         <?php endif; ?>
     <?php else: ?>
 
         <title><?php echo $siteTitle;?></title>
         <meta property="og:title" content="<?php echo $siteTitle;?>" />
         <meta property="og:description" content="<?php echo $siteDescription;?>" />
-        <meta property="og:image" content="./assets/logo.png" />
+        <meta property="og:image" content="https://images.prismic.io/iconsofslovenia/5d628309-0c09-4494-bdbb-c31da195463c_logo.png" />
 
     <?php endif; ?>
 
