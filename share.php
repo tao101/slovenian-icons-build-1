@@ -8,7 +8,7 @@ use Prismic\Dom\Link;
 use Prismic\Predicates;
 use Prismic\Dom\RichText;
 
-$api = Api::get("https://iconsua.cdn.prismic.io/api/v2");
+$api = Api::get("https://iconsofslovenia.cdn.prismic.io/api/v2");
 $path = explode( "/", $_SERVER['REQUEST_URI']);
 
 $response = null;
@@ -45,14 +45,14 @@ if($configResponse) {
             <meta property="og:image:width" content="<?php echo $response->data->seo_image->dimensions->width; ?>" />
             <meta property="og:image:height" content="<?php echo $response->data->seo_image->dimensions->height; ?>" />
         <?php else: ?>
-            <meta property="og:image" content="https://prismic-io.s3.amazonaws.com/iconsofslovenia/9c685de6-ef57-4ea0-a9a1-9440c696d6b7_Icons+of+Slovenia.svg" />
+            <meta property="og:image" content="./assets/logo.png" />
         <?php endif; ?>
     <?php else: ?>
 
         <title><?php echo $siteTitle;?></title>
         <meta property="og:title" content="<?php echo $siteTitle;?>" />
         <meta property="og:description" content="<?php echo $siteDescription;?>" />
-        <meta property="og:image" content="https://prismic-io.s3.amazonaws.com/iconsofslovenia/9c685de6-ef57-4ea0-a9a1-9440c696d6b7_Icons+of+Slovenia.svg" />
+        <meta property="og:image" content="./assets/logo.png" />
 
     <?php endif; ?>
 
